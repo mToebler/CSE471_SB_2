@@ -111,6 +111,7 @@ function printPosition(e) {
    console.log('xx', xy.x, 'yy', xy.y);
 }   
 // helper function to get an element's exact position
+// courtesy of kirupa https://www.kirupa.com/html5/getting_mouse_click_position.htm
 function getPosition(el) {
    var xPosition = 0;
    var yPosition = 0;
