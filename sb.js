@@ -9,7 +9,6 @@ document.addEventListener(
 
       current_img = document.querySelector("#curr_img");
 
-
       document.querySelector("header>div")
          .textContent = "SB_" + num;
 
@@ -46,7 +45,6 @@ document.addEventListener(
       }
 
       document.addEventListener("keypress", keyPressed);
-
 
       document.querySelector('#next')
          .addEventListener(
@@ -95,11 +93,6 @@ document.addEventListener(
       fRDiv.id = "rightC";
       fRDiv.addEventListener("click", goNext);
       document.getElementById("image").appendChild(fRDiv);
-
-
-
-
-
 
    }
 )
